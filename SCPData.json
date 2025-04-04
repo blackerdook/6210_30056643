@@ -1,0 +1,93 @@
+[
+    {
+      "model": "SCP-002",
+      "tagline": "Object Class: Euclid",
+      "image": "/images/800px-SCP002.jpg",
+      "containment": [
+        "SCP-002 is to remain connected to a suitable power supply at all times, to keep it in what appears to be a recharging mode.",
+        "Teams including a minimum of two (2) members are required within 20 meters of SCP-002 or its containment area.",
+        "No personnel below Level 3 are permitted within SCP-002."
+      ],
+      "description": [
+        "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m³ (or 2000 ft³).",
+        "Refer to the Mulhausen Report [cross-ref:document00.023.603] for details related to object's discovery."
+      ],
+      "reference": [
+        "To date, subject has been responsible for the disappearances of seven personnel.",
+        "Mulhausen Report docid:00.023.603.",
+        "The following is a brief report detailing the discovery of SCP-002.",
+        "Subject was discovered in a small crater in northern Portugal where it struck the Earth from orbit.",
+        "A collection squad of SCP security personnel led by General Mulhausen was immediately dispatched to the area where they quickly secured the subject in a large container and performed initial testing with subjects recruited from the nearby village.",
+        "[...content truncated for readability]"
+      ]
+    },
+    {
+      "model": "SCP-003",
+      "tagline": "Object Class: Euclid",
+      "image": "/images/SCP-003.jpg",
+      "containment": [
+        "SCP-003 is to be maintained at a constant temperature of no less than 35°C and ideally kept above 100°C.",
+        "In event of total power failure, if SCP-003-1 begins to increase its mass, assigned personnel must engage in skin contact with SCP-003-1.",
+        "Personnel who enter SCP-003's containment area must first be examined for body parasites of Category IV or higher complexity, and sterilized if such organisms are present.",
+        "SCP-003-1 must not be removed from SCP-003-2 except in case of emergency procedures detailed above."
+      ],
+      "description": [
+        "SCP-003 consists of two related components of separate origin, referred to as SCP-003-1 and SCP-003-2.",
+        "SCP-003-1 appears to be composed of chitin, hair, and nails of unknown biology, arranged in a configuration similar to that of a computer motherboard.",
+        "SCP-003-1 was found on a stone tablet, SCP-003-2, on which it currently resides.",
+        "SCP-003-2 is controlled by a (non-biological) internal computer, the contents of which are mostly inaccessible without risk of damaging SCP-003-2.",
+        "It is considered probable that SCP-003-2 was created for the purpose of containing SCP-003-1.",
+        "[...content truncated for readability]"
+      ],
+      "addendum": [
+        "Acting on information gathered from linguistic analysis of SCP-003-2's runes and comparative data analysis, Research Team M03-Gloria has managed to establish a link between SCP-003 and [DATA EXPUNGED] for analysis of functions.",
+        "SCP-003-2's power loss has been exacerbated by the procedures performed by M03-Gloria.",
+        "During M03-Gloria procedures, SCP-003-1 doubled its mass and began rapid structural growth.",
+        "The procedure detailed in Addendum 003-03 was repeated, and SCP-003-1 again entered a growth state.",
+        "On quadrupling its mass, SCP-003-1 formed a coherent outer shell and body.",
+        "[...content truncated for readability]"
+      ]
+    },
+    {
+      "model": "SCP-004",
+      "tagline": "Object Class: Euclid",
+      "image": "/images/SCP004_door.jpg",
+      "containment": [
+        "When handling items SCP-004-2 through SCP-004-13, proper procedure is vital.",
+        "Level 1 clearance is required for basic access to SCP-004-1; Level 4 clearance is required for use of SCP-004-2 to -13."
+      ],
+      "description": [
+        "SCP-004 consists of an old wooden barn door (SCP-004-1) and a set of twelve rusted steel keys (SCP-004-2 through SCP-004-13)."
+      ]
+    },
+    {
+      "model": "SCP-005",
+      "tagline": "Object Class: Safe",
+      "image": "/images/SCP-005.jpg",
+      "containment": [
+        "SCP-005 poses no immediate risk in any direct sense."
+      ],
+      "description": [
+        "In appearance, SCP-005 resembles an ornate key, displaying the characteristics of a typical mass produced key used in the 1920s."
+      ],
+      "notes": [
+        "SCP-005 may be used as a replacement for lost security passes, but only under the supervision of at least one (1) Level 4 personnel."
+      ],
+      "appendix": [
+        "While SCP-005 has been shown to be effective in removing almost any form of locking device, further experiments have shown that efforts to disguise the purpose or identity of a lock have proven at least somewhat successful in defeating SCP-005's ability."
+      ]
+    },
+    {
+      "model": "SCP-006",
+      "tagline": "Object Class: Safe",
+      "image": "/images/SCP-006.webp",
+      "containment": [
+        "Whereas the nature of SCP-006 does not warrant any extensive containment, a certain level of secrecy is necessary regarding the object's existence and properties, for obvious reasons.",
+        "All personnel interacting with SCP-006 in any physical way are required to wear modified Class VI BNC suits."
+      ],
+      "description": [
+        "SCP-006 is a very small spring located 60 km west of Astrakhan.",
+        "Ingesting the liquid produces the following properties in human beings: the ability to regenerate DNA damaged by sufficient duplication, heightened excitement of cellular duplication, vastly improved abilities in the repair of damaged tissue, and a frightening increase in the effectiveness of the human immune system."
+      ]
+    }
+  ]
