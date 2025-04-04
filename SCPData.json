@@ -2,7 +2,7 @@
     {
       "model": "SCP-002",
       "tagline": "Object Class: Euclid",
-      "image": "/images/800px-SCP002.jpg",
+      "image": "images/800px-SCP002.jpg",
       "containment": [
         "SCP-002 is to remain connected to a suitable power supply at all times, to keep it in what appears to be a recharging mode.",
         "Teams including a minimum of two (2) members are required within 20 meters of SCP-002 or its containment area.",
@@ -24,7 +24,7 @@
     {
       "model": "SCP-003",
       "tagline": "Object Class: Euclid",
-      "image": "/images/SCP-003.jpg",
+      "image": "images/SCP-003.jpg",
       "containment": [
         "SCP-003 is to be maintained at a constant temperature of no less than 35°C and ideally kept above 100°C.",
         "In event of total power failure, if SCP-003-1 begins to increase its mass, assigned personnel must engage in skin contact with SCP-003-1.",
@@ -51,7 +51,7 @@
     {
       "model": "SCP-004",
       "tagline": "Object Class: Euclid",
-      "image": "/images/SCP004_door.jpg",
+      "image": "images/SCP004_door.jpg",
       "containment": [
         "When handling items SCP-004-2 through SCP-004-13, proper procedure is vital.",
         "Level 1 clearance is required for basic access to SCP-004-1; Level 4 clearance is required for use of SCP-004-2 to -13."
@@ -63,7 +63,7 @@
     {
       "model": "SCP-005",
       "tagline": "Object Class: Safe",
-      "image": "/images/SCP-005.jpg",
+      "image": "images/SCP-005.jpg",
       "containment": [
         "SCP-005 poses no immediate risk in any direct sense."
       ],
@@ -80,7 +80,7 @@
     {
       "model": "SCP-006",
       "tagline": "Object Class: Safe",
-      "image": "/images/SCP-006.webp",
+      "image": "images/SCP-006.webp",
       "containment": [
         "Whereas the nature of SCP-006 does not warrant any extensive containment, a certain level of secrecy is necessary regarding the object's existence and properties, for obvious reasons.",
         "All personnel interacting with SCP-006 in any physical way are required to wear modified Class VI BNC suits."
