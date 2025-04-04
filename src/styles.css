@@ -1,0 +1,231 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(#0a0a0a 30%, #1a1a1a 100%);
+  z-index: -1;
+  opacity: 0.6;
+}
+
+
+.back-button {
+  margin: 1rem;
+  background-color: #471010;
+  color: #0b0c10;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 10;
+}
+
+
+.scp-header {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  padding: 2rem;
+  text-align: center;
+  color: #e0e0e0;
+  border-bottom: 2px solid #ff4444;
+}
+
+.scp-header h1 {
+  color: #ff4444;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.1);
+}
+
+.scp-intro {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.scp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+
+.scp-card {
+  background-color: #121212;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.scp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 0, 0, 0.2);
+}
+
+
+.scp-card-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.scp-card-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.scp-card:hover .scp-card-img img {
+  transform: scale(1.05);
+}
+
+
+.scp-card-content {
+  padding: 1rem;
+  color: #ccc;
+}
+
+.scp-card-content h3 {
+  color: #ff4444;
+  margin-bottom: 0.5rem;
+}
+
+.scp-class-tag {
+  display: inline-block;
+  background: #292929;
+  color: #ccc;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Snippet & Description */
+.scp-snippet {
+  font-size: 0.95rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scp-description {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+  font-weight: 500;
+  color: #e0e0e0;
+}
+
+
+.scp-btn {
+  background-color: #ff4444;
+  border: none;
+  color: #0a0a0a;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.scp-btn:hover {
+  background-color: #e63946;
+}
+
+
+.scp-detail {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  max-width: 900px;
+  margin: auto;
+}
+
+.scp-detail-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid #333;
+  margin-bottom: 1.5rem;
+}
+
+.scp-detail-header h2 {
+  font-size: 2rem;
+  color: #ff4c4c;
+}
+
+.scp-class {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.scp-detail-image img {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
+  margin: 2rem auto;
+}
+
+.scp-brief p {
+  font-size: 1.05rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+
+.scp-subheading {
+  font-size: 1.3rem;
+  color: #ff4444;
+  margin-top: 2rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.4rem;
+  text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.15);
+}
+
+.scp-paragraph {
+  font-size: 1.05rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .scp-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .scp-header h1 {
+    font-size: 2rem;
+  }
+
+  .scp-intro {
+    font-size: 1rem;
+  }
+}
